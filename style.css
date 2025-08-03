@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+.page{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #C499F3;
+}
+.game{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* align-items: center; */
+}
+.container{
+    height: 428px;
+    width: 428px;
+    background-color: #C499F3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5px;
+    backdrop-filter: blur 25px;
+}
+
+.box{
+    height: 140px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+    font-size: 60px;
+    background-color: #7360DF;
+    color: #33186B;
+}
+
+.box:hover{
+    background-color: rgba(225, 218, 218, 0.608);
+}
+
+.clicked{
+    background-color:#655aa381 ;
+}
+
+.buttons{
+    height: 50px;
+    width: 200px;
+    background-color: #281253c4;
+    border: none;
+    color:rgba(255, 255, 255, 0.633) ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.buttons:hover{
+    background-color:#34186bac ;
+}
+
+.hide{
+    display: none;
+}
+
+#msg{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
